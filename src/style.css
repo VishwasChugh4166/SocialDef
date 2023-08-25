@@ -292,19 +292,60 @@ body {
 
 .Carousel-section {
   text-align: center;
-  color: var(--textColor);
-  background-color: var(--backgroundColor);
+  color: var(--backgroundColor);
+  background-color: var(--textColor);
   margin: 0px 10px 10px 10px;
-  padding: 10px;
+  padding: 0px 50px;
+  border: 8px solid var(--backgroundColor);
+  min-width: 99%;
+  border-radius: 30px;
 }
-.Carousel {
+.reviewer-container img {
+  height: 200px;
+}
+.reviewer-container {
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+  padding: 10px;
+  display: inline-block;
+
+  border-radius: 30px;
+  border: 10px solid var(--primaryColor);
+  padding: 20px;
+}
+.reviewer-container div {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
-  margin: 50px;
 }
-
+.cb {
+  height: 100px;
+}
+.left-carosuel-btn {
+  -moz-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+.reviewer-review {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 30%;
+}
+.big-button button {
+  background-color: var(--primaryColor);
+  border: 6px solid var(--backgroundColor);
+  border-radius: 10px;
+  color: var(--backgroundColor);
+  margin: 20px;
+  font-weight: bold;
+  font-size: larger;
+  padding: 20px;
+}
 /* Display section */
 
 .display-section {

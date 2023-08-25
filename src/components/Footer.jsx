@@ -1,5 +1,5 @@
 import React from "react";
-import LogoC from "../Assets/CompLogo-01.png";
+import LogoC from "../Assets/CompLogo-01-01.png";
 
 function Footer() {
   return (

@@ -13,7 +13,7 @@ function Home() {
       <NewsletterSignUp />
       <Cards />
       <DisplayMain />
-      {/* <CarouselMain /> */}
+      <CarouselMain />
       <Footer />
     </div>
   );

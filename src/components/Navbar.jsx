@@ -22,13 +22,13 @@ function Navbar() {
         </div>
         <ul className="pc-nav">
           <li>
-            <a href="/services">Services</a>
+            <a href="#service">Services</a>
           </li>
           <li>
-            <a href="/benefits">Benefits</a>
+            <a href="#display">Benefits</a>
           </li>
           <li>
-            <a href="/testimonials">Testimonials</a>
+            <a href="#">Testimonials</a>
           </li>
         </ul>
         <button className="primary-button hidden">Contact Us</button>
@@ -36,13 +36,13 @@ function Navbar() {
           {hamOpen ? (
             <ul className="mob-nav">
               <li>
-                <a href="/services">Services</a>
+                <a href="#card">Services</a>
               </li>
               <li>
-                <a href="/benefits">Benefits</a>
+                <a href="#display">Benefits</a>
               </li>
               <li>
-                <a href="/testimonials">Testimonials</a>
+                <a href="#">Testimonials</a>
               </li>
             </ul>
           ) : (

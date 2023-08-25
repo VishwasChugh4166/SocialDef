@@ -8,7 +8,7 @@ function CardsComponents(props) {
       <h4>
         <b>{props.title}</b>
       </h4>
-      <p>{props.description}</p>
+      <p id="display">{props.description}</p>
     </div>
   );
 }

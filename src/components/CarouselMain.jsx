@@ -7,9 +7,9 @@ function CarouselMain() {
       <h3>Customer Testimonials</h3>
       <div className="Carousel">
         <CarouselComponent />
-        <CarouselComponent />
-        <CarouselComponent />
-        <CarouselComponent />
+        {/* <CarouselComponent /> */}
+        {/* <CarouselComponent /> */}
+        {/* <CarouselComponent /> */}
       </div>
     </div>
   );

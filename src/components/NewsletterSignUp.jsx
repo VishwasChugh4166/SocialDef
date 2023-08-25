@@ -44,7 +44,11 @@ function NewsletterSignUp() {
               placeholder="Name..."
             />
           </div>
-          <button className="primary-button form-button " type="submit">
+          <button
+            id="service"
+            className="primary-button form-button "
+            type="submit"
+          >
             Submit
           </button>
         </form>
